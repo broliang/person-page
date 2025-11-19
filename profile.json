@@ -1,0 +1,197 @@
+{
+  "profile": {
+    "name": "梁爽 (Liang Shuang)",
+    "title": "副研究员 (特聘) / 硕士生导师",
+    "affiliation": "电子科技大学 智能计算研究院",
+    "email": "shuangliang@uestc.edu.cn",
+    "phone": "(+86) 15008470836",
+    "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事知识图谱以及大模型工具学习的研究，并取得较多创新性成果。发表学术论文 10 余篇，以第一作者/通讯作者身份发表了 10 篇 CCF-A/B 学术论文，其中 ESI 高被引论文 1 篇；主持国自然青年基金一项，省部级项目一项以及之江实验室国际青年人才基金一项；参于重大重点项目两项（经费超 500W）；共申请专利软著 10 项，一作的专利软著 5 项。相关研究成果发表在 KDD、IEEE TKDE、IEEE ICDE 等国际顶级期刊和会议上。受邀为多个国际期刊会议审稿人，包括：IEEE TKDE, IEEE TNNLS, ACM KDD, ACM MM 等。",
+    "researchInterests": [
+      "知识图谱 (Knowledge Graphs)",
+      "大模型工具学习 (LLM Tool Learning)",
+      "图神经网络 (GNN)",
+      "推荐系统 (Recommender Systems)"
+    ],
+    "avatarUrl": "https://picsum.photos/400/400"
+  },
+  "experience": [
+    {
+      "role": "副研究员（特聘），硕导",
+      "institution": "电子科技大学",
+      "department": "智能计算研究院",
+      "period": "2023.9 - 至今"
+    }
+  ],
+  "education": [
+    {
+      "degree": "博士 (计算机科学与技术)",
+      "institution": "电子科技大学",
+      "period": "2019.9 - 2023.6"
+    },
+    {
+      "degree": "硕士 (电子与通信工程)",
+      "institution": "电子科技大学",
+      "period": "2016.9 - 2019.7"
+    },
+    {
+      "degree": "本科 (电子信息工程)",
+      "institution": "电子科技大学",
+      "period": "2012.9 - 2016.7"
+    }
+  ],
+  "projects": [
+    {
+      "title": "面向高效可信推理的大语言模型知识增强技术研究",
+      "role": "项目主持",
+      "period": "2025.01 - 2027.12",
+      "source": "国家自然科学基金委员会 (青年基金项目)",
+      "code": "62406057",
+      "funding": "30 万"
+    },
+    {
+      "title": "基于知识图谱的兴趣推理及其在推荐系统中的应用",
+      "role": "项目主持 (优秀结题)",
+      "period": "2023.01 - 2023.12",
+      "source": "四川省科技厅 (苗子工程重点项目)",
+      "code": "2023JDRC0086",
+      "funding": "10 万"
+    },
+    {
+      "title": "基于图视角的多模态知识图谱表示学习与应用",
+      "role": "项目主持",
+      "period": "2022.01 - 2023.01",
+      "source": "之江实验室 (之江国际青年人才基金)",
+      "code": "-",
+      "funding": "3 万"
+    },
+    {
+      "title": "xxx 生成式模型构建技术",
+      "role": "主要参与 (第三)",
+      "period": "2023.08 - 2025.08",
+      "source": "J 委科技委 (重点项目)",
+      "code": "2A2023CXPTLC001007",
+      "funding": "570 万"
+    },
+    {
+      "title": "边缘弱算力条件下生成式智能模型轻量化技术研究",
+      "role": "主要参与 (第二)",
+      "period": "2024.05 - 2026.05",
+      "source": "J 委科技委 (领域基金)",
+      "code": "296142101230202",
+      "funding": "30 万"
+    },
+    {
+      "title": "大规模属性异质图表示与挖掘方法",
+      "role": "项目参与",
+      "period": "2022.01 - 2025.12",
+      "source": "国家自然科学基金委员会 (联合基金项目)",
+      "code": "U21B2046",
+      "funding": "273 万"
+    }
+  ],
+  "publications": [
+    {
+      "authors": "S. Liang, J. Shao, D. Zhang, J. Zhang, and B. Cui",
+      "title": "DRGI: Deep relational graph infomax for knowledge graph completion",
+      "venue": "IEEE Trans. Knowl. Data Eng. (TKDE), vol. 35, no. 3",
+      "year": "2023",
+      "tags": ["CCF-A", "ESI High Cited"]
+    },
+    {
+      "authors": "S. Liang, J. Shao, J. Zhang, and B. Cui",
+      "title": "Graph-based non-sampling for knowledge graph enhanced recommendation",
+      "venue": "IEEE Trans. Knowl. Data Eng. (TKDE), vol. 35, no. 9",
+      "year": "2023",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "S. Liang, J. Shao",
+      "title": "Knowledge Graph Embedding Based on Graph Neural Network",
+      "venue": "Proc. ICDE",
+      "year": "2023",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "S. Liang, A. Zhu, J. Zhang, and J. Shao",
+      "title": "Hyper-node relational graph attention network for multi-modal knowledge graph completion",
+      "venue": "ACM Trans. Multim. Comput. Commun. Appl. (TOMM)",
+      "year": "2023",
+      "tags": ["CCF-B"]
+    },
+    {
+      "authors": "S. Liang, J. Shao, D. Zhang, J. Zhang, and B. Cui",
+      "title": "DRGI: Deep relational graph infomax for knowledge graph completion: (Extended abstract)",
+      "venue": "Proc. ICDE",
+      "year": "2022",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "D. Zhang, S. Liang*, T. He, J. Shao, and K. Qin",
+      "title": "CVIformer: Cross-View Interactive Transformer for Efficient Stereoscopic Image Super-Resolution",
+      "venue": "IEEE Trans. Emerg. Top. Comput. Intell.",
+      "year": "2025",
+      "tags": ["中科院二区"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "R. Wang, S. Liang*, Q. Chen, J. Zhang, and K. Qin",
+      "title": "GraphTool-Instruction: Revolutionizing graph reasoning in LLMs through decomposed subtask instruction",
+      "venue": "Proc. KDD",
+      "year": "2025",
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "R. Dai, Y. Tan, L. Mo, S. Liang*, G. Huo, J. Luo, and Y. Cheng",
+      "title": "G-SAP: Graph-based structure-aware prompt learning over heterogeneous knowledge for commonsense reasoning",
+      "venue": "Proc. ICMR",
+      "year": "2024",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Y. Ma, K. Qin, and S. Liang*",
+      "title": "Beta-LR: Interpretable logical reasoning based on Beta distribution",
+      "venue": "Proc. NAACL-HLT",
+      "year": "2024",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "D. Chen, S. Liang*, G. Hu, H. Xu, X. Luo, H. Li, and J. Shao",
+      "title": "Mitigating data stalls in deep learning with multi-times data loading rule",
+      "venue": "DASFAA",
+      "year": "2023",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Y. Dong, K. Qin, S. Liang, A. Raza, and G. Luo",
+      "title": "GKA-GPT: Graphical knowledge aggregation for multiturn dialog generation",
+      "venue": "Knowl. Based Syst.",
+      "year": "2025",
+      "tags": ["中科院一区"]
+    },
+    {
+      "authors": "H. He, A. Zhu, S. Liang, F. Chen, and J. Shao",
+      "title": "Decoupling meta-reinforcement learning with Gaussian task contexts and skills",
+      "venue": "Proc. AAAI",
+      "year": "2024",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "J. Zhang, J. Chen, M. Yang, A. Feng, S. Liang, J. Shao, and R. Ying",
+      "title": "DTGB: A comprehensive benchmark for dynamic text-attributed graphs",
+      "venue": "Proc. NeurIPS",
+      "year": "2024",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Y. Dong, K. Qin, and S. Liang",
+      "title": "Hierarchical knowledge aggregation for personalized response generation in dialogue systems",
+      "venue": "NLPCC",
+      "year": "2024",
+      "tags": ["CCF-C"]
+    }
+  ]
+}
