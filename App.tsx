@@ -329,7 +329,7 @@ const App: React.FC = () => {
             <p className="font-semibold mb-1">出版概况</p>
             <p>
               发表学术论文 <span className="font-bold">{stats.total}</span> 篇，
-              以第一作者/通讯作者身份发表了 <span className="font-bold">{stats.highLevel}</span> 篇 CCF-A/B 类及一区学术论文
+             包含 <span className="font-bold">{stats.highLevel}</span> 篇 CCF-A/B 类及一区学术论文
               {stats.esi > 0 && <span>，其中 ESI 高被引论文 <span className="font-bold">{stats.esi}</span> 篇</span>}。
               <br/>
               <span className="text-xs opacity-80 mt-1 block">* 表示通讯作者</span>
