@@ -5,7 +5,7 @@
     "affiliation": "电子科技大学 智能计算研究院",
     "email": "shuangliang@uestc.edu.cn",
     "phone": "(+86) 15008470836",
-    "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事知识图谱以及大模型工具学习的研究，并取得较多创新性成果。发表学术论文 10 余篇，以第一作者/通讯作者身份发表了 10 篇 CCF-A/B 学术论文，其中 ESI 高被引论文 1 篇；主持国自然青年基金一项，省部级项目一项以及之江实验室国际青年人才基金一项；参于重大重点项目两项（经费超 500W）；共申请专利软著 10 项，一作的专利软著 5 项。相关研究成果发表在 KDD、IEEE TKDE、IEEE ICDE 等国际顶级期刊和会议上。受邀为多个国际期刊会议审稿人，包括：IEEE TKDE, IEEE TNNLS, ACM KDD, ACM MM 等。",
+    "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事知识图谱以及大模型工具学习的研究，并取得较多创新性成果。发表学术论文 20 余篇，以第一作者/通讯作者身份发表多篇 CCF-A/B 类及中科院一区学术论文，包含 KDD, NeurIPS, VLDB, ICML, IEEE TKDE, IEEE ICDE 等国际顶级期刊和会议。主持国家自然科学基金青年项目、四川省科技厅重点项目等；作为骨干参与多项国家级、省部级重大重点科研项目。",
     "researchInterests": [
       "知识图谱 (Knowledge Graphs)",
       "大模型工具学习 (LLM Tool Learning)",
@@ -41,157 +41,297 @@
   ],
   "projects": [
     {
-      "title": "面向高效可信推理的大语言模型知识增强技术研究",
-      "role": "项目主持",
+      "title": "面向高效推理的大语言模型知识增强技术研究",
+      "role": "主持",
       "period": "2025.01 - 2027.12",
-      "source": "国家自然科学基金委员会 (青年基金项目)",
+      "source": "国家自然科学基金委员会 (青年基金)",
       "code": "62406057",
-      "funding": "30 万"
+      "funding": "30 万元"
     },
     {
       "title": "基于知识图谱的兴趣推理及其在推荐系统中的应用",
-      "role": "项目主持 (优秀结题)",
-      "period": "2023.01 - 2023.12",
+      "role": "主持 (结题优秀)",
+      "period": "2023.01 - 2024.01",
       "source": "四川省科技厅 (苗子工程重点项目)",
       "code": "2023JDRC0086",
-      "funding": "10 万"
+      "funding": "10 万元"
     },
     {
       "title": "基于图视角的多模态知识图谱表示学习与应用",
-      "role": "项目主持",
+      "role": "主持 (结题)",
       "period": "2022.01 - 2023.01",
-      "source": "之江实验室 (之江国际青年人才基金)",
+      "source": "之江实验室 (国际青年人才基金)",
       "code": "-",
-      "funding": "3 万"
+      "funding": "3 万元"
     },
     {
-      "title": "xxx 生成式模型构建技术",
-      "role": "主要参与 (第三)",
-      "period": "2023.08 - 2025.08",
-      "source": "J 委科技委 (重点项目)",
-      "code": "2A2023CXPTLC001007",
-      "funding": "570 万"
+      "title": "多模态大数据智能分析与推演服务平台构建及应用示范",
+      "role": "参与 (排名第三)",
+      "period": "2024.05 - 至今",
+      "source": "广西省科技厅 (联合研究与应用示范项目)",
+      "code": "AB24010112",
+      "funding": "180 万元"
     },
     {
       "title": "边缘弱算力条件下生成式智能模型轻量化技术研究",
-      "role": "主要参与 (第二)",
-      "period": "2024.05 - 2026.05",
-      "source": "J 委科技委 (领域基金)",
+      "role": "参与 (排名第二)",
+      "period": "2024.05 - 至今",
+      "source": "国防科技大学 (领域基金)",
       "code": "296142101230202",
-      "funding": "30 万"
+      "funding": "28 万元"
+    },
+    {
+      "title": "xxx 模型构建技术",
+      "role": "参与 (排名第三)",
+      "period": "2023.08 - 2025.08",
+      "source": "XX 科技委",
+      "code": "XX2023...",
+      "funding": "570 万元"
     },
     {
       "title": "大规模属性异质图表示与挖掘方法",
-      "role": "项目参与",
+      "role": "参与",
       "period": "2022.01 - 2025.12",
       "source": "国家自然科学基金委员会 (联合基金项目)",
       "code": "U21B2046",
-      "funding": "273 万"
+      "funding": "253 万元"
     }
   ],
   "publications": [
     {
-      "authors": "S. Liang, J. Shao, D. Zhang, J. Zhang, and B. Cui",
-      "title": "DRGI: Deep relational graph infomax for knowledge graph completion",
-      "venue": "IEEE Trans. Knowl. Data Eng. (TKDE), vol. 35, no. 3",
+      "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
+      "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 35(3): 2486-2499",
       "year": "2023",
-      "tags": ["CCF-A", "ESI High Cited"]
+      "tags": ["CCF-A", "ESI 高被引"]
     },
     {
-      "authors": "S. Liang, J. Shao, J. Zhang, and B. Cui",
-      "title": "Graph-based non-sampling for knowledge graph enhanced recommendation",
-      "venue": "IEEE Trans. Knowl. Data Eng. (TKDE), vol. 35, no. 9",
+      "authors": "Shuang Liang, Jie Shao, Jiasheng Zhang, and Bin Cui",
+      "title": "Graph-based Non-Sampling for Knowledge Graph Enhanced Recommendation",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 35(9): 9462-9475",
       "year": "2023",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "S. Liang, J. Shao",
+      "authors": "Shuang Liang",
       "title": "Knowledge Graph Embedding Based on Graph Neural Network",
-      "venue": "Proc. ICDE",
+      "venue": "Proceedings of the IEEE International Conference on Data Engineering (ICDE), pp. 3908-3912",
       "year": "2023",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "S. Liang, A. Zhu, J. Zhang, and J. Shao",
-      "title": "Hyper-node relational graph attention network for multi-modal knowledge graph completion",
-      "venue": "ACM Trans. Multim. Comput. Commun. Appl. (TOMM)",
+      "authors": "Shuang Liang, Anjie Zhu, Jiasheng Zhang, and Jie Shao",
+      "title": "Hyper-node Relational Graph Attention Network for Multi-modal Knowledge Graph Completion",
+      "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 19(5): 1-21",
       "year": "2023",
       "tags": ["CCF-B"]
     },
     {
-      "authors": "S. Liang, J. Shao, D. Zhang, J. Zhang, and B. Cui",
-      "title": "DRGI: Deep relational graph infomax for knowledge graph completion: (Extended abstract)",
-      "venue": "Proc. ICDE",
-      "year": "2022",
-      "tags": ["CCF-A"]
-    },
-    {
-      "authors": "D. Zhang, S. Liang*, T. He, J. Shao, and K. Qin",
-      "title": "CVIformer: Cross-View Interactive Transformer for Efficient Stereoscopic Image Super-Resolution",
-      "venue": "IEEE Trans. Emerg. Top. Comput. Intell.",
-      "year": "2025",
-      "tags": ["中科院二区"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "R. Wang, S. Liang*, Q. Chen, J. Zhang, and K. Qin",
-      "title": "GraphTool-Instruction: Revolutionizing graph reasoning in LLMs through decomposed subtask instruction",
-      "venue": "Proc. KDD",
+      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Jiasheng Zhang, and Ke Qin",
+      "title": "GraphTool-Instruction: Revolutionizing Graph Reasoning in LLMs through Decomposed Subtask Instruction",
+      "venue": "Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
       "year": "2025",
       "tags": ["CCF-A"],
       "isCorresponding": true
     },
     {
-      "authors": "R. Dai, Y. Tan, L. Mo, S. Liang*, G. Huo, J. Luo, and Y. Cheng",
-      "title": "G-SAP: Graph-based structure-aware prompt learning over heterogeneous knowledge for commonsense reasoning",
-      "venue": "Proc. ICMR",
+      "authors": "Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, and Shuang Liang*",
+      "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
+      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": "2025",
+      "tags": ["CCF-A", "Accept"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Dongyang Zhang, Jiachi Liu, Shuang Liang*, Xiurui Xie, Qiang Dong, and Ke Qin",
+      "title": "Towards Lightweight Image Super-resolution via Re-parameterized Kernel Recalibration",
+      "venue": "Knowledge-Based Systems (KBS), 113876",
+      "year": "2025",
+      "tags": ["中科院一区"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Xiao Wang, Tingting Dai, Wudong Cai, Ke Qin, Jie Shao, and Shuang Liang*",
+      "title": "Rethinking the Denoising Strategy in Session-based Recommendation via Bidirectional Information Flow",
+      "venue": "Data Science and Engineering",
+      "year": "2025",
+      "tags": ["中科院一区"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Dongyang Zhang, Shuang Liang*, Tianyi He, Jie Shao, and Ke Qin",
+      "title": "CVIformer: Cross-view Interactive Transformer for Efficient Stereoscopic Image Super-resolution",
+      "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)",
+      "year": "2024",
+      "tags": ["中科院二区"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Yizhuo Ma, Ke Qin*, and Shuang Liang*",
+      "title": "Beta-LR: Interpretable Logical Reasoning based on Beta Distribution",
+      "venue": "Findings of the Association for Computational Linguistics: NAACL, 1945-1955",
       "year": "2024",
       "tags": ["CCF-B"],
       "isCorresponding": true
     },
     {
-      "authors": "Y. Ma, K. Qin, and S. Liang*",
-      "title": "Beta-LR: Interpretable logical reasoning based on Beta distribution",
-      "venue": "Proc. NAACL-HLT",
-      "year": "2024",
+      "authors": "Ruiting Dai, Yuxin Tan, Lei Mo, Tianyi He, Ke Qin, and Shuang Liang*",
+      "title": "RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-language Models with Missing Modalities",
+      "venue": "Proceedings of the International Conference on Multimedia Retrieval (ICMR)",
+      "year": "2025",
       "tags": ["CCF-B"],
       "isCorresponding": true
     },
     {
-      "authors": "D. Chen, S. Liang*, G. Hu, H. Xu, X. Luo, H. Li, and J. Shao",
-      "title": "Mitigating data stalls in deep learning with multi-times data loading rule",
-      "venue": "DASFAA",
+      "authors": "Derong Chen, Shuang Liang*, Gang Hu, Han Xu, Xianqiang Luo, Hao Li, and Jie Shao",
+      "title": "Mitigating Data Stalls in Deep Learning with Multi-times Data Loading Rule",
+      "venue": "Proceedings of the International Conference on Database Systems for Advanced Applications (DASFAA), pp. 562-577",
       "year": "2023",
       "tags": ["CCF-B"],
       "isCorresponding": true
     },
     {
-      "authors": "Y. Dong, K. Qin, S. Liang, A. Raza, and G. Luo",
-      "title": "GKA-GPT: Graphical knowledge aggregation for multiturn dialog generation",
-      "venue": "Knowl. Based Syst.",
+      "authors": "Xiao Wang, Hui Li, Ke Qin, Zheyu Fan, and Shuang Liang*",
+      "title": "Denoised Edge-aware Network for Session-based Recommendation",
+      "venue": "Proceedings of the International Conference on Software Engineering and Knowledge Engineering (SEKE)",
+      "year": "2025",
+      "tags": ["CCF-C"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Jiakai Li, Rongzheng Wang, Yizhuo Ma, Shuang Liang, Guangchun Luo, and Ke Qin",
+      "title": "DSAS: A Universal Plug-and-Play Framework for Attention Optimization in Multi-Document Question Answering",
+      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": "2025",
+      "tags": ["CCF-A", "Accept"]
+    },
+    {
+      "authors": "Muquan Li, Hang Gou, Dongyang Zhang, Shuang Liang, Xiurui Xie, Deqiang Ouyang, and Ke Qin",
+      "title": "Beyond Random: Automatic Inner-loop Optimization in Dataset Distillation",
+      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": "2025",
+      "tags": ["CCF-A", "Accept"]
+    },
+    {
+      "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
+      "title": "GKA-GPT: Graphical Knowledge Aggregation for Multi-turn Dialog Generation",
+      "venue": "Knowledge-Based Systems (KBS), 309: 112763",
       "year": "2025",
       "tags": ["中科院一区"]
     },
     {
-      "authors": "H. He, A. Zhu, S. Liang, F. Chen, and J. Shao",
-      "title": "Decoupling meta-reinforcement learning with Gaussian task contexts and skills",
-      "venue": "Proc. AAAI",
+      "authors": "Jiasheng Zhang, Jialin Chen, Menglin Yang, Aosong Feng, Shuang Liang, Jie Shao, and Rex Ying",
+      "title": "DTGB: A Comprehensive Benchmark for Dynamic Text-attributed Graphs",
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 37: 91405-91429",
       "year": "2024",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "J. Zhang, J. Chen, M. Yang, A. Feng, S. Liang, J. Shao, and R. Ying",
-      "title": "DTGB: A comprehensive benchmark for dynamic text-attributed graphs",
-      "venue": "Proc. NeurIPS",
+      "authors": "Xiao Wang, Tingting Dai, Qiao Liu, and Shuang Liang",
+      "title": "Spatial-temporal Perceiving: Deciphering User Hierarchical Intent in Session-based Recommendation",
+      "venue": "Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
       "year": "2024",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "Y. Dong, K. Qin, and S. Liang",
-      "title": "Hierarchical knowledge aggregation for personalized response generation in dialogue systems",
-      "venue": "NLPCC",
+      "authors": "Hongcai He, Anjie Zhu, Shuang Liang, Feiyu Chen, and Jie Shao",
+      "title": "Decoupling Meta-reinforcement Learning with Gaussian Task Contexts and Skills",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 38(11): 12358-12366",
       "year": "2024",
-      "tags": ["CCF-C"]
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Jiasheng Zhang, DelvinCe Zhang, Shuang Liang, ZhengpinLi, Rex Ying, and Jie Shao",
+      "title": "Retrieval-Augmented Language Model for Knowledge-aware Protein Encoding",
+      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": "2024",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, and Jie Shao",
+      "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
+      "venue": "Proceedings of the 51st International Conference on Very Large Data Bases (VLDB), pp. 3573-3586",
+      "year": "2025",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Jiasheng Zhang, Shuang Liang, Zhiyi Deng, and Jie Shao",
+      "title": "Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion",
+      "venue": "Proceedings of the International Conference on Database Systems for Advanced Applications (DASFAA), pp. 207-223",
+      "year": "2021",
+      "tags": ["CCF-B"]
+    },
+    {
+      "authors": "Anjie Zhu, Deqiang Ouyang, Shuang Liang, and Jie Shao",
+      "title": "Step by Step: A Hierarchical Framework for Multi-hop Knowledge Graph Reasoning with Reinforcement Learning",
+      "venue": "Knowledge-Based Systems (KBS), 248: 108843",
+      "year": "2022",
+      "tags": ["中科院一区"]
+    },
+    {
+      "authors": "Jiasheng Zhang, Shuang Liang, Yongpan Sheng, and Jie Shao",
+      "title": "Temporal Knowledge Graph Representation Learning with Local and Global Evolutions",
+      "venue": "Knowledge-Based Systems (KBS), 251: 109234",
+      "year": "2022",
+      "tags": ["中科院一区"]
+    }
+  ],
+  "patents": [
+    {
+      "inventors": "张嘉昇; 梁爽; 邵杰",
+      "title": "一种基于协同演化建模的时序知识图谱表示学习方法",
+      "date": "2023-03-14",
+      "number": "ZL202110305818.4",
+      "type": "发明专利",
+      "country": "中国"
+    },
+    {
+      "inventors": "邵杰; 张嘉昇; 梁爽; 邓智毅; 申恒涛",
+      "title": "一种基于时空架构的时序知识图谱补全方法",
+      "date": "2021-06-15",
+      "number": "ZL202011265517.5",
+      "type": "发明专利",
+      "country": "中国"
+    },
+    {
+      "inventors": "邵杰; 梁爽; 杨晨旭",
+      "title": "一种基于图神经网络的多模态知识图谱表示学习方法",
+      "date": "2022-01-20",
+      "number": "202210065665.5",
+      "type": "发明专利",
+      "country": "中国"
+    },
+    {
+      "inventors": "梁爽; 阿里·瓦格尔; 邵杰; 张嘉昇; 申恒涛",
+      "title": "一种针对知识增强推荐系统的图非采样学习方法",
+      "date": "2022-05-06",
+      "number": "202210488178.X",
+      "type": "发明专利",
+      "country": "中国"
+    },
+    {
+      "inventors": "邵杰; 王萌; 苏博; 梁爽",
+      "title": "基于傅里叶变换的轻量化多模态知识图谱表示学习方法",
+      "date": "2023-06-29",
+      "number": "202310786378.8",
+      "type": "发明专利",
+      "country": "中国"
+    },
+    {
+      "inventors": "梁爽",
+      "title": "基于图神经网络的多模态知识图谱表示软件 V1.0",
+      "date": "2021-10-01",
+      "number": "2022SR0317451",
+      "type": "软件著作权",
+      "country": "中国"
+    },
+    {
+      "inventors": "梁爽",
+      "title": "基于图非采样的知识增强推荐系统 V1.0",
+      "date": "2022-01-28",
+      "number": "2022SR0907652",
+      "type": "软件著作权",
+      "country": "中国"
     }
   ]
 }
