@@ -10,7 +10,8 @@ import {
   Menu, 
   X, 
   FileText,
-  Loader2
+  Loader2,
+  Stamp
 } from 'lucide-react';
 import { Section } from './components/Section';
 import { Badge } from './components/Badge';
@@ -81,7 +82,7 @@ const App: React.FC = () => {
     if (loading || !resumeData) return;
 
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'publications'];
+      const sections = ['home', 'about', 'projects', 'publications', 'patents'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -101,6 +102,7 @@ const App: React.FC = () => {
     { id: 'about', label: '简介 & 经历' },
     { id: 'projects', label: '科研项目' },
     { id: 'publications', label: '论文专著' },
+    { id: 'patents', label: '专利软著' },
   ];
 
   if (loading) {
@@ -371,6 +373,46 @@ const App: React.FC = () => {
             );
           })}
         </div>
+      </Section>
+      
+      {/* Patents Section */}
+      <Section id="patents" title="专利软著" className="bg-slate-50">
+        {resumeData.patents && resumeData.patents.length > 0 ? (
+          <div className="grid gap-4">
+            {resumeData.patents.map((patent, idx) => (
+              <div key={idx} className="bg-white p-5 rounded-lg shadow-sm border border-slate-100 flex flex-col md:flex-row md:items-center justify-between gap-4 group hover:border-primary-200 transition-colors">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className={`text-xs font-bold px-2 py-0.5 rounded border ${
+                      patent.type.includes("软著") || patent.type.includes("软件")
+                        ? "bg-purple-50 text-purple-700 border-purple-100"
+                        : "bg-amber-50 text-amber-700 border-amber-100"
+                    }`}>
+                      {patent.type}
+                    </span>
+                     <span className="text-xs text-slate-400 font-mono flex items-center gap-1">
+                       <Stamp size={12} /> {patent.number}
+                     </span>
+                  </div>
+                  <h3 className="text-base font-bold text-slate-900 mb-1 group-hover:text-primary-700 transition-colors">{patent.title}</h3>
+                  <p className="text-sm text-slate-600">
+                    {patent.inventors.split(/[;；]/).map((person, pIdx, arr) => (
+                       <span key={pIdx} className={person.includes('梁爽') ? 'font-bold text-slate-900' : ''}>
+                         {person.trim()}{pIdx < arr.length - 1 ? '，' : ''}
+                       </span>
+                    ))}
+                  </p>
+                </div>
+                <div className="text-sm text-slate-500 whitespace-nowrap flex items-center gap-2 md:flex-col md:items-end md:justify-center">
+                  <span>{patent.date}</span>
+                  {patent.country && <span className="hidden md:inline text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500">{patent.country}</span>}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-slate-500 text-center py-8">暂无专利信息</div>
+        )}
       </Section>
 
       {/* Footer */}

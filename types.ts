@@ -41,10 +41,20 @@ export interface Publication {
   isCorresponding?: boolean; // If S. Liang*
 }
 
+export interface Patent {
+  inventors: string;
+  title: string;
+  date: string;
+  number: string;
+  type: string; // e.g. 发明专利, 软件著作权
+  country?: string;
+}
+
 export interface ResumeData {
   profile: Profile;
   education: Education[];
   experience: Experience[];
   projects: Project[];
   publications: Publication[];
+  patents: Patent[];
 }
