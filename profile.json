@@ -7,8 +7,8 @@
     "phone": "(+86) 15008470836",
     "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事知识图谱以及大模型工具学习的研究，并取得较多创新性成果。发表学术论文 20 余篇，以第一作者/通讯作者身份发表多篇 CCF-A/B 类及中科院一区学术论文，包含 KDD, NeurIPS, VLDB, ICML, IEEE TKDE, IEEE ICDE 等国际顶级期刊和会议。主持国家自然科学基金青年项目、四川省科技厅重点项目等；作为骨干参与多项国家级、省部级重大重点科研项目。",
     "researchInterests": [
+      "大语言模型 (Large Language Model)",
       "知识图谱 (Knowledge Graphs)",
-      "大模型工具学习 (LLM Tool Learning)",
       "图神经网络 (GNN)",
       "推荐系统 (Recommender Systems)"
     ],
