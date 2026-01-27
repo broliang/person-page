@@ -99,6 +99,30 @@
   ],
   "publications": [
     {
+      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Yihong Huang, Muquan Li, Yizhuo Ma, Dongyang Zhang, Ke Qin, and Man-Fai Leung",
+      "title": "GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
+      "venue": "Proceedings of the ACM Web Conference (WWW)",
+      "year": "2026",
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, and Shuang Liang*",
+      "title": "KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation",
+      "venue": "Proceedings of the ACM Web Conference (WWW)",
+      "year": "2026",
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
+      "title": "Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+      "year": "2026",
+      "tags": ["CCF-A", "Oral"],
+      "isCorresponding": true
+    },
+    {
       "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
       "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
       "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 35(3): 2486-2499",
@@ -210,7 +234,8 @@
       "title": "Beyond Random: Automatic Inner-loop Optimization in Dataset Distillation",
       "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
       "year": "2025",
-      "tags": ["CCF-A", "Accept"]
+      "tags": ["CCF-A", "Accept"],
+      "isCorresponding": false
     },
     {
       "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
