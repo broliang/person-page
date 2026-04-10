@@ -99,6 +99,30 @@
   ],
   "publications": [
     {
+      "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
+      "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": "2026",
+      "tags": ["CCF-A"]
+      "isCorresponding": false
+    },
+    {
+      "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
+      "title": "Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
+      "venue": "Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings)",
+      "year": "2026",
+      "tags": ["CCF-A" Findings]
+      "isCorresponding": false
+    },
+    {
+      "authors": "Zekai Lin, Chao Xue, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Lei Jiang, Yu Lu, Bob Simons, Shuang Liang, and Minlong Peng",
+      "title": "Parameter Importance is Not Static: Evolving Parameter Isolation for Supervised Fine-Tuning",
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": "2026",
+      "tags": ["CCF-A"]
+      "isCorresponding": false
+    },
+    {
       "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Yihong Huang, Muquan Li, Yizhuo Ma, Dongyang Zhang, Ke Qin, and Man-Fai Leung",
       "title": "GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
       "venue": "Proceedings of the ACM Web Conference (WWW)",
