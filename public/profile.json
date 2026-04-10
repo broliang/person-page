@@ -103,7 +103,7 @@
       "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
       "year": "2026",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
       "isCorresponding": false
     },
     {
@@ -118,7 +118,7 @@
       "title": "Parameter Importance is Not Static: Evolving Parameter Isolation for Supervised Fine-Tuning",
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
       "year": "2026",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
       "isCorresponding": false
     },
     {

@@ -26,12 +26,16 @@ const App: React.FC = () => {
 
   // Fetch data from public/profile.json
   useEffect(() => {
-    fetch('./profile.json')
-      .then(response => {
+    fetch(`${import.meta.env.BASE_URL}profile.json`)
+      .then(async response => {
         if (!response.ok) {
-          throw new Error('Failed to load profile data');
+          throw new Error(`Failed to fetch profile data: ${response.status} ${response.statusText}`);
         }
-        return response.json();
+        try {
+          return await response.json();
+        } catch {
+          throw new Error('Invalid profile.json format');
+        }
       })
       .then(data => {
         setResumeData(data);
@@ -39,7 +43,7 @@ const App: React.FC = () => {
       })
       .catch(err => {
         console.error(err);
-        setError('Failed to load profile data. Please ensure public/profile.json exists.');
+        setError(err instanceof Error ? err.message : 'Failed to load profile data.');
         setLoading(false);
       });
   }, []);
