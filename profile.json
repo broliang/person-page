@@ -126,7 +126,7 @@
       "title": "GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
       "venue": "Proceedings of the ACM Web Conference (WWW)",
       "year": "2026",
-      "tags": ["CCF-A"],
+      "tags": ["CCF-A", "Oral"],
       "isCorresponding": true
     },
     {
@@ -134,7 +134,7 @@
       "title": "KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation",
       "venue": "Proceedings of the ACM Web Conference (WWW)",
       "year": "2026",
-      "tags": ["CCF-A"],
+      "tags": ["CCF-A", "Oral"],
       "isCorresponding": true
     },
     {
