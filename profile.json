@@ -186,7 +186,7 @@
       "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
       "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
       "year": "2025",
-      "tags": ["CCF-A", "Accept"],
+      "tags": ["CCF-A"],
       "isCorresponding": true
     },
     {
@@ -250,14 +250,14 @@
       "title": "DSAS: A Universal Plug-and-Play Framework for Attention Optimization in Multi-Document Question Answering",
       "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
       "year": "2025",
-      "tags": ["CCF-A", "Accept"]
+      "tags": ["CCF-A"]
     },
     {
       "authors": "Muquan Li, Hang Gou, Dongyang Zhang, Shuang Liang, Xiurui Xie, Deqiang Ouyang, and Ke Qin",
       "title": "Beyond Random: Automatic Inner-loop Optimization in Dataset Distillation",
       "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
       "year": "2025",
-      "tags": ["CCF-A", "Accept"],
+      "tags": ["CCF-A"],
       "isCorresponding": false
     },
     {
