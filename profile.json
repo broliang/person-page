@@ -115,6 +115,30 @@
   ],
   "publications": [
     {
+      "authors": "Yuning Yang, Guowei Peng, Xiurui Xie, Minrui Jiang, Shuang Liang, and Guisong Liu",
+      "title": "Toward Safe Quantization-Aware Fine-tuning: Understanding and Mitigating Safety Alignment Degradation",
+      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": "2026",
+      "tags": ["CCF-A"],
+      "isCorresponding": false
+    },
+    {
+      "authors": "Yihong Huang, Ke Qin, Rongzheng Wang, Muquan Li, Jiakai Li, Xiurui Xie, and Shuang Liang*",
+      "title": "PADA-Coder: Improving Plan-Following Code Generation via Perturbation-Verified Attention Distillation and Dynamic Alignment",
+      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": "2026",
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Jiakai Li, Ke Qin, Rongzheng Wang, Yizhuo Ma, Qizhi Chen, Muquan Li, and Shuang Liang*",
+      "title": "Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models",
+      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": "2026",
+      "tags": ["CCF-A", "Spotlight"],
+      "isCorresponding": true
+    },
+    {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
       "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
