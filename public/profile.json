@@ -117,7 +117,7 @@
     {
       "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
       "title": "From Trade-off to Synergy: Rethinking the Long-tail Session-based Recommendation Via Dual Constraints of Hybrid Intent",
-      "venue": "ACM Transactions on Information Systems (ICML)",
+      "venue": "ACM Transactions on Information Systems (TOIS)",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": true
