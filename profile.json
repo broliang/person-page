@@ -137,7 +137,7 @@
     {
       "authors": "Yuning Yang, Guowei Peng, Xiurui Xie, Minrui Jiang, Shuang Liang, and Guisong Liu",
       "title": "Toward Safe Quantization-Aware Fine-tuning: Understanding and Mitigating Safety Alignment Degradation",
-      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": false
@@ -145,7 +145,7 @@
     {
       "authors": "Yihong Huang, Ke Qin, Rongzheng Wang, Muquan Li, Jiakai Li, Xiurui Xie, and Shuang Liang*",
       "title": "PADA-Coder: Improving Plan-Following Code Generation via Perturbation-Verified Attention Distillation and Dynamic Alignment",
-      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": true
@@ -153,7 +153,7 @@
     {
       "authors": "Jiakai Li, Ke Qin, Rongzheng Wang, Yizhuo Ma, Qizhi Chen, Muquan Li, and Shuang Liang*",
       "title": "Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models",
-      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A", "Spotlight"],
       "isCorresponding": true
@@ -161,7 +161,7 @@
     {
       "authors": "Rongzheng Wang, Zhe Wang, Ke Qin, Rongwei Wang, Muquan Li, Yizhuo Ma, Yihong Huang, Jielei Wang, and Shuang Liang*",
       "title": "Visual Graph Reasoning via Knowledge Compilation",
-      "venue": "Proceedings of the ACM International Conference on Multimedia (ACM MM)",
+      "venue": "ACM Multimedia 2026",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": true
@@ -169,7 +169,7 @@
     {
       "authors": "Yu Qing, Xiao Wang, Zhe Wang, Xiurui Xie, Ke Qin, and Shuang Liang*",
       "title": "The Prism of Interest: Refracting User Needs in Session-Based Recommendation",
-      "venue": "Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM)",
+      "venue": "CIKM 2026",
       "year": "2026",
       "tags": ["CCF-B"],
       "isCorresponding": true
@@ -201,7 +201,7 @@
     {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
       "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
-      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "venue": "ACL (1) 2026: 30186-30213",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": false
@@ -209,14 +209,14 @@
     {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
       "title": "Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
-      "venue": "Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings)",
+      "venue": "ACL (Findings) 2026: 23302-23319",
       "year": "2026",
       "isCorresponding": false
     },
     {
       "authors": "Zekai Lin, Chao Xue, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Lei Jiang, Yu Lu, Bob Simons, Shuang Liang, and Minlong Peng",
       "title": "Parameter Importance is Not Static: Evolving Parameter Isolation for Supervised Fine-Tuning",
-      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "venue": "ACL (1) 2026: 32846-32864",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": false
@@ -369,8 +369,8 @@
     },
     {
       "authors": "Xiao Wang, Tingting Dai, Qiao Liu, and Shuang Liang",
-      "title": "Spatial-temporal Perceiving: Deciphering User Hierarchical Intent in Session-based Recommendation",
-      "venue": "Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+      "title": "Spatial-Temporal Perceiving: Deciphering User Hierarchical Intent in Session-Based Recommendation",
+      "venue": "IJCAI 2024: 2415-2423",
       "year": "2024",
       "tags": ["CCF-A"]
     },
