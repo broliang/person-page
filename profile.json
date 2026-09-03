@@ -117,19 +117,19 @@
     {
       "authors": "Yizhuo Ma, Rongzheng Wang, Shuang Liang, Guangchun Luo, and Ke Qin",
       "title": "TopoLLM: LLM-driven adaptive tool learning for real-time emergency network topology planning",
-      "venue": "Digit. Commun. Networks 12(2): 273-282",
+      "venue": "Digit. Commun. Networks 12(2): 273-282 (2026)",
       "year": "2026"
     },
     {
       "authors": "Yingyi Ma, Muquan Li, Guiduo Duan, Ke Qin, Shuang Liang, and Dongyang Zhang",
       "title": "Efficient Dataset Distillation via Generative Pruning",
-      "venue": "IEEE Trans. Big Data 12(4): 1195-1207",
+      "venue": "IEEE Trans. Big Data 12(4): 1195-1207 (2026)",
       "year": "2026"
     },
     {
       "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
       "title": "From Tradeoff to Synergy: Rethinking the Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intent",
-      "venue": "ACM Trans. Inf. Syst. 44(5): 122:1-122:28",
+      "venue": "ACM Trans. Inf. Syst. 44(5): 122:1-122:28 (2026)",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": true
@@ -224,7 +224,7 @@
     {
       "authors": "Xiao Wang, Tingting Dai, Wudong Cai, Ke Qin, Jie Shao, and Shuang Liang*",
       "title": "Rethinking the Denoising Strategy in Session-Based Recommendation via Bidirectional Information Flow",
-      "venue": "Data Sci. Eng. 10(4): 711-728",
+      "venue": "Data Sci. Eng. 10(4): 711-728 (2025)",
       "year": "2025",
       "tags": ["中科院一区"],
       "isCorresponding": true
@@ -232,20 +232,20 @@
     {
       "authors": "Yuezhou Dong, Ke Qin, Pei Ke, Shuang Liang, and Guangchun Luo",
       "title": "Cross-Graph Knowledge Exchange for Personalized Response Generation in Dialogue Systems",
-      "venue": "IEEE Internet Things J. 12(10): 13769-13789",
+      "venue": "IEEE Internet Things J. 12(10): 13769-13789 (2025)",
       "year": "2025"
     },
     {
       "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
       "title": "GKA-GPT: Graphical knowledge aggregation for multiturn dialog generation",
-      "venue": "Knowl. Based Syst. 309: 112763",
+      "venue": "Knowl. Based Syst. 309: 112763 (2025)",
       "year": "2025",
       "tags": ["中科院一区"]
     },
     {
       "authors": "Dongyang Zhang, Jiachi Liu, Shuang Liang*, Xiurui Xie, Qiang Dong, and Ke Qin",
       "title": "Toward lightweight image super-resolution via re-parameterized kernel recalibration",
-      "venue": "Knowl. Based Syst. 325: 113876",
+      "venue": "Knowl. Based Syst. 325: 113876 (2025)",
       "year": "2025",
       "tags": ["中科院一区"],
       "isCorresponding": true
@@ -253,21 +253,21 @@
     {
       "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, and Jie Shao",
       "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
-      "venue": "Proc. VLDB Endow. 18(10): 3573-3586",
+      "venue": "Proc. VLDB Endow. 18(10): 3573-3586 (2025)",
       "year": "2025",
       "tags": ["CCF-A"]
     },
     {
       "authors": "Meng Wang, Changyu Li, Feiyu Chen, Jie Shao, Ke Qin, and Shuang Liang*",
       "title": "MLFormer: Unleashing Efficiency Without Attention for Multimodal Knowledge Graph Embedding",
-      "venue": "IEEE Trans. Comput. Soc. Syst. 12(6): 5536-5549",
+      "venue": "IEEE Trans. Comput. Soc. Syst. 12(6): 5536-5549 (2025)",
       "year": "2025",
       "isCorresponding": true
     },
     {
       "authors": "Dongyang Zhang, Shuang Liang*, Tao He, Jie Shao, and Ke Qin",
       "title": "CVIformer: Cross-View Interactive Transformer for Efficient Stereoscopic Image Super-Resolution",
-      "venue": "IEEE Trans. Emerg. Top. Comput. Intell. 9(2): 1107-1118",
+      "venue": "IEEE Trans. Emerg. Top. Comput. Intell. 9(2): 1107-1118 (2025)",
       "year": "2025",
       "tags": ["中科院二区"],
       "isCorresponding": true
@@ -377,14 +377,14 @@
     {
       "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
       "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
-      "venue": "IEEE Trans. Knowl. Data Eng. 35(3): 2486-2499",
+      "venue": "IEEE Trans. Knowl. Data Eng. 35(3): 2486-2499 (2023)",
       "year": "2023",
       "tags": ["CCF-A", "ESI 高被引"]
     },
     {
       "authors": "Shuang Liang, Jie Shao, Jiasheng Zhang, and Bin Cui",
       "title": "Graph-Based Non-Sampling for Knowledge Graph Enhanced Recommendation",
-      "venue": "IEEE Trans. Knowl. Data Eng. 35(9): 9462-9475",
+      "venue": "IEEE Trans. Knowl. Data Eng. 35(9): 9462-9475 (2023)",
       "year": "2023",
       "tags": ["CCF-A"]
     },
@@ -398,7 +398,7 @@
     {
       "authors": "Shuang Liang, Anjie Zhu, Jiasheng Zhang, and Jie Shao",
       "title": "Hyper-node Relational Graph Attention Network for Multi-modal Knowledge Graph Completion",
-      "venue": "ACM Trans. Multim. Comput. Commun. Appl. 19(2): 62:1-62:21",
+      "venue": "ACM Trans. Multim. Comput. Commun. Appl. 19(2): 62:1-62:21 (2023)",
       "year": "2023",
       "tags": ["CCF-B"]
     },
@@ -413,14 +413,14 @@
     {
       "authors": "Anjie Zhu, Deqiang Ouyang, Shuang Liang, and Jie Shao",
       "title": "Step by step: A hierarchical framework for multi-hop knowledge graph reasoning with reinforcement learning",
-      "venue": "Knowl. Based Syst. 248: 108843",
+      "venue": "Knowl. Based Syst. 248: 108843 (2022)",
       "year": "2022",
       "tags": ["中科院一区"]
     },
     {
       "authors": "Jiasheng Zhang, Shuang Liang, Yongpan Sheng, and Jie Shao",
       "title": "Temporal knowledge graph representation learning with local and global evolutions",
-      "venue": "Knowl. Based Syst. 251: 109234",
+      "venue": "Knowl. Based Syst. 251: 109234 (2022)",
       "year": "2022",
       "tags": ["中科院一区"]
     },
