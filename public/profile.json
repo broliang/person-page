@@ -5,7 +5,7 @@
     "affiliation": "电子科技大学 智能计算研究院",
     "email": "shuangliang@uestc.edu.cn",
     "phone": "(+86) 15008470836",
-    "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事大模型及知识增强应用相关研究，并取得较多创新性成果。发表学术论文 30 余篇，以第一作者/通讯作者身份发表多篇 CCF-A/B 类及中科院一区学术论文，包含 KDD, NeurIPS, VLDB, ICML, ACM MM, CIKM, IEEE TKDE, IEEE ICDE 等国际顶级期刊和会议。主持国家自然科学基金青年项目、四川省科技厅重点项目等；作为骨干参与多项国家级、省部级重大重点科研项目。",
+    "bio": "梁爽，现任电子科技大学智能计算研究院特聘副研究员。从事大模型及知识增强应用相关研究，并取得较多创新性成果。发表学术论文 40 余篇，以第一作者/通讯作者身份发表多篇 CCF-A/B 类及中科院一区学术论文，包含 KDD, NeurIPS, VLDB, ICML, ACM MM, CIKM, IEEE TKDE, IEEE ICDE 等国际顶级期刊和会议。主持国家自然科学基金青年项目、四川省科技厅重点项目等；作为骨干参与多项国家级、省部级重大重点科研项目。",
     "researchInterests": [
       "大语言模型 (Large Language Model)",
       "知识图谱 (Knowledge Graphs)",
@@ -115,9 +115,21 @@
   ],
   "publications": [
     {
+      "authors": "Yizhuo Ma, Rongzheng Wang, Shuang Liang, Guangchun Luo, and Ke Qin",
+      "title": "TopoLLM: LLM-driven adaptive tool learning for real-time emergency network topology planning",
+      "venue": "Digit. Commun. Networks 12(2): 273-282",
+      "year": "2026"
+    },
+    {
+      "authors": "Yingyi Ma, Muquan Li, Guiduo Duan, Ke Qin, Shuang Liang, and Dongyang Zhang",
+      "title": "Efficient Dataset Distillation via Generative Pruning",
+      "venue": "IEEE Trans. Big Data 12(4): 1195-1207",
+      "year": "2026"
+    },
+    {
       "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
-      "title": "From Trade-off to Synergy: Rethinking the Long-tail Session-based Recommendation Via Dual Constraints of Hybrid Intent",
-      "venue": "ACM Transactions on Information Systems (TOIS)",
+      "title": "From Tradeoff to Synergy: Rethinking the Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intent",
+      "venue": "ACM Trans. Inf. Syst. 44(5): 122:1-122:28",
       "year": "2026",
       "tags": ["CCF-A"],
       "isCorresponding": true
@@ -163,6 +175,30 @@
       "isCorresponding": true
     },
     {
+      "authors": "Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, and Shuang Liang*",
+      "title": "KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation",
+      "venue": "WWW 2026: 2308-2319",
+      "year": "2026",
+      "tags": ["CCF-A", "Oral"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Yihong Huang, Muquan Li, Yizhuo Ma, Dongyang Zhang, Ke Qin, and Man-Fai Leung",
+      "title": "GraphCogent: Mitigating LLMs' Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
+      "venue": "WWW 2026: 3811-3822",
+      "year": "2026",
+      "tags": ["CCF-A", "Oral"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
+      "title": "Bid Farewell to Seesaw: Towards Accurate Long-Tail Session-Based Recommendation via Dual Constraints of Hybrid Intents",
+      "venue": "AAAI 2026: 15895-15903",
+      "year": "2026",
+      "tags": ["CCF-A", "Oral"],
+      "isCorresponding": true
+    },
+    {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
       "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
@@ -186,157 +222,150 @@
       "isCorresponding": false
     },
     {
-      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Yihong Huang, Muquan Li, Yizhuo Ma, Dongyang Zhang, Ke Qin, and Man-Fai Leung",
-      "title": "GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
-      "venue": "Proceedings of the ACM Web Conference (WWW)",
-      "year": "2026",
-      "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, and Shuang Liang*",
-      "title": "KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation",
-      "venue": "Proceedings of the ACM Web Conference (WWW)",
-      "year": "2026",
-      "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
-      "title": "Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents",
-      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
-      "year": "2026",
-      "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
-      "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
-      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 35(3): 2486-2499",
-      "year": "2023",
-      "tags": ["CCF-A", "ESI 高被引"]
-    },
-    {
-      "authors": "Shuang Liang, Jie Shao, Jiasheng Zhang, and Bin Cui",
-      "title": "Graph-based Non-Sampling for Knowledge Graph Enhanced Recommendation",
-      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 35(9): 9462-9475",
-      "year": "2023",
-      "tags": ["CCF-A"]
-    },
-    {
-      "authors": "Shuang Liang",
-      "title": "Knowledge Graph Embedding Based on Graph Neural Network",
-      "venue": "Proceedings of the IEEE International Conference on Data Engineering (ICDE), pp. 3908-3912",
-      "year": "2023",
-      "tags": ["CCF-A"]
-    },
-    {
-      "authors": "Shuang Liang, Anjie Zhu, Jiasheng Zhang, and Jie Shao",
-      "title": "Hyper-node Relational Graph Attention Network for Multi-modal Knowledge Graph Completion",
-      "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 19(5): 1-21",
-      "year": "2023",
-      "tags": ["CCF-B"]
-    },
-    {
-      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Jiasheng Zhang, and Ke Qin",
-      "title": "GraphTool-Instruction: Revolutionizing Graph Reasoning in LLMs through Decomposed Subtask Instruction",
-      "venue": "Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "authors": "Xiao Wang, Tingting Dai, Wudong Cai, Ke Qin, Jie Shao, and Shuang Liang*",
+      "title": "Rethinking the Denoising Strategy in Session-Based Recommendation via Bidirectional Information Flow",
+      "venue": "Data Sci. Eng. 10(4): 711-728",
       "year": "2025",
-      "tags": ["CCF-A"],
+      "tags": ["中科院一区"],
       "isCorresponding": true
     },
     {
-      "authors": "Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, and Shuang Liang*",
-      "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
-      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "authors": "Yuezhou Dong, Ke Qin, Pei Ke, Shuang Liang, and Guangchun Luo",
+      "title": "Cross-Graph Knowledge Exchange for Personalized Response Generation in Dialogue Systems",
+      "venue": "IEEE Internet Things J. 12(10): 13769-13789",
+      "year": "2025"
+    },
+    {
+      "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
+      "title": "GKA-GPT: Graphical knowledge aggregation for multiturn dialog generation",
+      "venue": "Knowl. Based Syst. 309: 112763",
       "year": "2025",
-      "tags": ["CCF-A"],
-      "isCorresponding": true
+      "tags": ["中科院一区"]
     },
     {
       "authors": "Dongyang Zhang, Jiachi Liu, Shuang Liang*, Xiurui Xie, Qiang Dong, and Ke Qin",
-      "title": "Towards Lightweight Image Super-resolution via Re-parameterized Kernel Recalibration",
-      "venue": "Knowledge-Based Systems (KBS), 113876",
+      "title": "Toward lightweight image super-resolution via re-parameterized kernel recalibration",
+      "venue": "Knowl. Based Syst. 325: 113876",
       "year": "2025",
       "tags": ["中科院一区"],
       "isCorresponding": true
     },
     {
-      "authors": "Xiao Wang, Tingting Dai, Wudong Cai, Ke Qin, Jie Shao, and Shuang Liang*",
-      "title": "Rethinking the Denoising Strategy in Session-based Recommendation via Bidirectional Information Flow",
-      "venue": "Data Science and Engineering",
+      "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, and Jie Shao",
+      "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
+      "venue": "Proc. VLDB Endow. 18(10): 3573-3586",
       "year": "2025",
-      "tags": ["中科院一区"],
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Meng Wang, Changyu Li, Feiyu Chen, Jie Shao, Ke Qin, and Shuang Liang*",
+      "title": "MLFormer: Unleashing Efficiency Without Attention for Multimodal Knowledge Graph Embedding",
+      "venue": "IEEE Trans. Comput. Soc. Syst. 12(6): 5536-5549",
+      "year": "2025",
       "isCorresponding": true
     },
     {
-      "authors": "Dongyang Zhang, Shuang Liang*, Tianyi He, Jie Shao, and Ke Qin",
-      "title": "CVIformer: Cross-view Interactive Transformer for Efficient Stereoscopic Image Super-resolution",
-      "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)",
-      "year": "2024",
+      "authors": "Dongyang Zhang, Shuang Liang*, Tao He, Jie Shao, and Ke Qin",
+      "title": "CVIformer: Cross-View Interactive Transformer for Efficient Stereoscopic Image Super-Resolution",
+      "venue": "IEEE Trans. Emerg. Top. Comput. Intell. 9(2): 1107-1118",
+      "year": "2025",
       "tags": ["中科院二区"],
       "isCorresponding": true
     },
     {
-      "authors": "Yizhuo Ma, Ke Qin*, and Shuang Liang*",
-      "title": "Beta-LR: Interpretable Logical Reasoning based on Beta Distribution",
-      "venue": "Findings of the Association for Computational Linguistics: NAACL, 1945-1955",
-      "year": "2024",
-      "tags": ["CCF-B"],
-      "isCorresponding": true
+      "authors": "Yizhuo Ma, Rongzheng Wang, Qizhi Chen, Jiakai Li, Shuang Liang, and Ke Qin",
+      "title": "Rethinking Graph Reasoning: Equip Large Language Models with Topology-Enhanced Prompt",
+      "venue": "IEEE Big Data 2025: 2924-2933",
+      "year": "2025"
     },
     {
-      "authors": "Ruiting Dai, Yuxin Tan, Lei Mo, Tianyi He, Ke Qin, and Shuang Liang*",
-      "title": "RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-language Models with Missing Modalities",
-      "venue": "Proceedings of the International Conference on Multimedia Retrieval (ICMR)",
-      "year": "2025",
-      "tags": ["CCF-B"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Derong Chen, Shuang Liang*, Gang Hu, Han Xu, Xianqiang Luo, Hao Li, and Jie Shao",
-      "title": "Mitigating Data Stalls in Deep Learning with Multi-times Data Loading Rule",
-      "venue": "Proceedings of the International Conference on Database Systems for Advanced Applications (DASFAA), pp. 562-577",
-      "year": "2023",
-      "tags": ["CCF-B"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Xiao Wang, Hui Li, Ke Qin, Zheyu Fan, and Shuang Liang*",
-      "title": "Denoised Edge-aware Network for Session-based Recommendation",
-      "venue": "Proceedings of the International Conference on Software Engineering and Knowledge Engineering (SEKE)",
-      "year": "2025",
-      "tags": ["CCF-C"],
-      "isCorresponding": true
-    },
-    {
-      "authors": "Jiakai Li, Rongzheng Wang, Yizhuo Ma, Shuang Liang, Guangchun Luo, and Ke Qin",
-      "title": "DSAS: A Universal Plug-and-Play Framework for Attention Optimization in Multi-Document Question Answering",
-      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "authors": "Jiasheng Zhang, Delvin Ce Zhang, Shuang Liang, Zhengpin Li, Rex Ying, and Jie Shao",
+      "title": "Retrieval-Augmented Language Model for Knowledge-aware Protein Encoding",
+      "venue": "ICML 2025",
       "year": "2025",
       "tags": ["CCF-A"]
     },
     {
+      "authors": "Xiao Wang, Han Li, Ke Qin, Zherui Fan, and Shuang Liang*",
+      "title": "Denoised Edge-Aware Network for Session-based Recommendation",
+      "venue": "ICSIM 2025: 110-115",
+      "year": "2025",
+      "isCorresponding": true
+    },
+    {
+      "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Jiasheng Zhang, and Ke Qin",
+      "title": "GraphTool-Instruction: Revolutionizing Graph Reasoning in LLMs through Decomposed Subtask Instruction",
+      "venue": "KDD (1) 2025: 1492-1503",
+      "year": "2025",
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Ruiting Dai, Yuqiao Tan, Lisi Mo, Tao He, Ke Qin, and Shuang Liang*",
+      "title": "RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-Language Models with Missing Modalities",
+      "venue": "ICMR 2025: 164-172",
+      "year": "2025",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
+    },
+    {
       "authors": "Muquan Li, Hang Gou, Dongyang Zhang, Shuang Liang, Xiurui Xie, Deqiang Ouyang, and Ke Qin",
       "title": "Beyond Random: Automatic Inner-loop Optimization in Dataset Distillation",
-      "venue": "Proceedings of The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "venue": "NeurIPS 2025",
       "year": "2025",
       "tags": ["CCF-A"],
       "isCorresponding": false
     },
     {
-      "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
-      "title": "GKA-GPT: Graphical Knowledge Aggregation for Multi-turn Dialog Generation",
-      "venue": "Knowledge-Based Systems (KBS), 309: 112763",
+      "authors": "Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, and Shuang Liang*",
+      "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
+      "venue": "NeurIPS 2025",
       "year": "2025",
-      "tags": ["中科院一区"]
+      "tags": ["CCF-A"],
+      "isCorresponding": true
+    },
+    {
+      "authors": "Jiakai Li, Rongzheng Wang, Yizhuo Ma, Shuang Liang, Guangchun Luo, and Ke Qin",
+      "title": "DSAS: A Universal Plug-and-Play Framework for Attention Optimization in Multi-Document Question Answering",
+      "venue": "NeurIPS 2025",
+      "year": "2025",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Hongcai He, Anjie Zhu, Shuang Liang, Feiyu Chen, and Jie Shao",
+      "title": "Decoupling Meta-Reinforcement Learning with Gaussian Task Contexts and Skills",
+      "venue": "AAAI 2024: 12358-12366",
+      "year": "2024",
+      "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Ruiting Dai, Yuqiao Tan, Lisi Mo, Shuang Liang, Guohao Huo, Jiayi Luo, and Yao Cheng",
+      "title": "G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning",
+      "venue": "ICMR 2024: 1051-1060",
+      "year": "2024",
+      "tags": ["CCF-B"]
+    },
+    {
+      "authors": "Yizhuo Ma, Ke Qin*, and Shuang Liang*",
+      "title": "Beta-LR: Interpretable Logical Reasoning based on Beta Distribution",
+      "venue": "NAACL-HLT (Findings) 2024: 1945-1955",
+      "year": "2024",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
     },
     {
       "authors": "Jiasheng Zhang, Jialin Chen, Menglin Yang, Aosong Feng, Shuang Liang, Jie Shao, and Rex Ying",
-      "title": "DTGB: A Comprehensive Benchmark for Dynamic Text-attributed Graphs",
-      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 37: 91405-91429",
+      "title": "DTGB: A Comprehensive Benchmark for Dynamic Text-Attributed Graphs",
+      "venue": "NeurIPS 2024",
       "year": "2024",
       "tags": ["CCF-A"]
+    },
+    {
+      "authors": "Yuezhou Dong, Ke Qin, and Shuang Liang",
+      "title": "Hierarchical Knowledge Aggregation for Personalized Response Generation in Dialogue Systems",
+      "venue": "NLPCC (1) 2024: 29-42",
+      "year": "2024",
+      "tags": ["CCF-C"]
     },
     {
       "authors": "Xiao Wang, Tingting Dai, Qiao Liu, and Shuang Liang",
@@ -346,46 +375,68 @@
       "tags": ["CCF-A"]
     },
     {
-      "authors": "Hongcai He, Anjie Zhu, Shuang Liang, Feiyu Chen, and Jie Shao",
-      "title": "Decoupling Meta-reinforcement Learning with Gaussian Task Contexts and Skills",
-      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 38(11): 12358-12366",
-      "year": "2024",
+      "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
+      "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
+      "venue": "IEEE Trans. Knowl. Data Eng. 35(3): 2486-2499",
+      "year": "2023",
+      "tags": ["CCF-A", "ESI 高被引"]
+    },
+    {
+      "authors": "Shuang Liang, Jie Shao, Jiasheng Zhang, and Bin Cui",
+      "title": "Graph-Based Non-Sampling for Knowledge Graph Enhanced Recommendation",
+      "venue": "IEEE Trans. Knowl. Data Eng. 35(9): 9462-9475",
+      "year": "2023",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "Jiasheng Zhang, DelvinCe Zhang, Shuang Liang, ZhengpinLi, Rex Ying, and Jie Shao",
-      "title": "Retrieval-Augmented Language Model for Knowledge-aware Protein Encoding",
-      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
-      "year": "2024",
+      "authors": "Shuang Liang",
+      "title": "Knowledge Graph Embedding Based on Graph Neural Network",
+      "venue": "ICDE 2023: 3908-3912",
+      "year": "2023",
       "tags": ["CCF-A"]
     },
     {
-      "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, and Jie Shao",
-      "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
-      "venue": "Proceedings of the 51st International Conference on Very Large Data Bases (VLDB), pp. 3573-3586",
-      "year": "2025",
-      "tags": ["CCF-A"]
-    },
-    {
-      "authors": "Jiasheng Zhang, Shuang Liang, Zhiyi Deng, and Jie Shao",
-      "title": "Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion",
-      "venue": "Proceedings of the International Conference on Database Systems for Advanced Applications (DASFAA), pp. 207-223",
-      "year": "2021",
+      "authors": "Shuang Liang, Anjie Zhu, Jiasheng Zhang, and Jie Shao",
+      "title": "Hyper-node Relational Graph Attention Network for Multi-modal Knowledge Graph Completion",
+      "venue": "ACM Trans. Multim. Comput. Commun. Appl. 19(2): 62:1-62:21",
+      "year": "2023",
       "tags": ["CCF-B"]
     },
     {
+      "authors": "Derong Chen, Shuang Liang*, Gang Hu, Han Xu, Xianqiang Luo, Hao Li, and Jie Shao",
+      "title": "Mitigating Data Stalls in Deep Learning with Multi-times Data Loading Rule",
+      "venue": "DASFAA (1) 2023: 562-577",
+      "year": "2023",
+      "tags": ["CCF-B"],
+      "isCorresponding": true
+    },
+    {
       "authors": "Anjie Zhu, Deqiang Ouyang, Shuang Liang, and Jie Shao",
-      "title": "Step by Step: A Hierarchical Framework for Multi-hop Knowledge Graph Reasoning with Reinforcement Learning",
-      "venue": "Knowledge-Based Systems (KBS), 248: 108843",
+      "title": "Step by step: A hierarchical framework for multi-hop knowledge graph reasoning with reinforcement learning",
+      "venue": "Knowl. Based Syst. 248: 108843",
       "year": "2022",
       "tags": ["中科院一区"]
     },
     {
       "authors": "Jiasheng Zhang, Shuang Liang, Yongpan Sheng, and Jie Shao",
-      "title": "Temporal Knowledge Graph Representation Learning with Local and Global Evolutions",
-      "venue": "Knowledge-Based Systems (KBS), 251: 109234",
+      "title": "Temporal knowledge graph representation learning with local and global evolutions",
+      "venue": "Knowl. Based Syst. 251: 109234",
       "year": "2022",
       "tags": ["中科院一区"]
+    },
+    {
+      "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
+      "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion: (Extended Abstract)",
+      "venue": "ICDE 2022: 1499-1500",
+      "year": "2022",
+      "tags": ["CCF-A", "Extended Abstract"]
+    },
+    {
+      "authors": "Jiasheng Zhang, Shuang Liang, Zhiyi Deng, and Jie Shao",
+      "title": "Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion",
+      "venue": "DASFAA (1) 2021: 207-223",
+      "year": "2021",
+      "tags": ["CCF-B"]
     }
   ],
   "patents": [
