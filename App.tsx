@@ -364,7 +364,7 @@ const App: React.FC = () => {
                   </div>
                   <div className="flex flex-wrap items-center gap-y-2">
                      <span className="font-serif italic text-slate-600 mr-3">
-                       {pub.venue}, {pub.year}
+                       {pub.venue}
                      </span>
                      <div className="flex flex-wrap">
                        {pub.tags?.map((tag, tIdx) => (
