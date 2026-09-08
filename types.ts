@@ -39,6 +39,9 @@ export interface Publication {
   year: string;
   tags?: string[]; // e.g., CCF-A, Best Paper
   isCorresponding?: boolean; // If S. Liang*
+  pdfUrl?: string;
+  pageUrl?: string;
+  status?: 'accepted';
 }
 
 export interface Patent {
@@ -48,6 +51,8 @@ export interface Patent {
   number: string;
   type: string; // e.g. 发明专利, 软件著作权
   country?: string;
+  status?: string;
+  link?: string;
 }
 
 export interface ResumeData {

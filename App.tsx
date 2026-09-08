@@ -1,20 +1,16 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Mail, 
   Phone, 
   MapPin, 
   GraduationCap, 
-  BookOpen, 
-  Award, 
   Briefcase, 
   Menu, 
   X, 
-  FileText,
-  Loader2,
-  Stamp
+  Loader2
 } from 'lucide-react';
 import { Section } from './components/Section';
-import { Badge } from './components/Badge';
+import { PatentsSection, ProjectsSection, PublicationsSection } from './components/AcademicSections';
 import { ResumeData } from './types';
 
 const App: React.FC = () => {
@@ -47,29 +43,6 @@ const App: React.FC = () => {
         setLoading(false);
       });
   }, []);
-
-  // Process publications: Sort by year descending
-  const sortedPublications = useMemo(() => {
-    if (!resumeData) return [];
-    return [...resumeData.publications].sort((a, b) => {
-      const yearA = parseInt(a.year) || 0;
-      const yearB = parseInt(b.year) || 0;
-      return yearB - yearA;
-    });
-  }, [resumeData]);
-
-  // Dynamic stats
-  const stats = useMemo(() => {
-    if (!sortedPublications.length) return { total: 0, highLevel: 0, esi: 0 };
-    const total = sortedPublications.length;
-    const highLevel = sortedPublications.filter(p => 
-      p.tags?.some(t => t.includes('CCF-A') || t.includes('CCF-B') || t.includes('一区'))
-    ).length;
-    const esi = sortedPublications.filter(p => 
-      p.tags?.some(t => t.toLowerCase().includes('esi'))
-    ).length;
-    return { total, highLevel, esi };
-  }, [sortedPublications]);
 
   // Close menu when clicking a link on mobile
   const handleNavClick = (id: string) => {
@@ -289,135 +262,11 @@ const App: React.FC = () => {
         </div>
       </Section>
 
-      {/* Projects Section */}
-      <Section id="projects" title="科研项目" className="bg-slate-50">
-        <div className="grid md:grid-cols-2 gap-6">
-          {resumeData.projects.map((project, idx) => (
-            <div key={idx} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col h-full">
-              <div className="flex justify-between items-start mb-3">
-                <span className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider ${
-                  project.role.includes("主持") ? "bg-green-50 text-green-700" : "bg-slate-100 text-slate-600"
-                }`}>
-                  {project.role}
-                </span>
-                <span className="text-xs font-mono text-slate-400">{project.period}</span>
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2 leading-snug">
-                {project.title}
-              </h3>
-              <div className="mt-auto space-y-2 text-sm text-slate-600 pt-4 border-t border-slate-50">
-                <div className="flex items-center gap-2">
-                  <Award size={14} className="shrink-0 text-slate-400"/>
-                  <span>{project.source}</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center gap-2">
-                    <FileText size={14} className="shrink-0 text-slate-400"/>
-                    <span className="font-mono text-xs">{project.code}</span>
-                  </div>
-                  {project.funding && (
-                     <span className="font-bold text-primary-700">{project.funding}</span>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </Section>
+      <ProjectsSection projects={resumeData.projects} />
 
-      {/* Publications Section */}
-      <Section id="publications" title="代表性论文" className="bg-white">
-        <div className="bg-blue-50 border border-blue-100 rounded-md p-4 mb-8 flex items-start gap-3">
-          <BookOpen className="text-primary-600 mt-0.5 shrink-0" size={20} />
-          <div className="text-sm text-blue-900">
-            <p className="font-semibold mb-1">出版概况</p>
-            <p>
-              发表学术论文 <span className="font-bold">{stats.total}</span> 篇，
-             包含 <span className="font-bold">{stats.highLevel}</span> 篇 CCF-A/B 类及一区学术论文
-              {stats.esi > 0 && <span>，其中 ESI 高被引论文 <span className="font-bold">{stats.esi}</span> 篇</span>}。
-              <br/>
-              <span className="text-xs opacity-80 mt-1 block">* 表示通讯作者</span>
-            </p>
-          </div>
-        </div>
+      <PublicationsSection publications={resumeData.publications} />
 
-        <div className="space-y-6">
-          {sortedPublications.map((pub, idx) => {
-            // Highlight the user's name in the author list
-            const parts = pub.authors.split(/(S\. Liang\*?|梁爽\*?)/g);
-            
-            return (
-              <div key={idx} className="flex gap-4 group">
-                <div className="text-slate-300 font-mono text-sm font-bold w-8 shrink-0 pt-0.5">
-                  [{idx + 1}]
-                </div>
-                <div className="flex-1 pb-6 border-b border-slate-100 last:border-0 last:pb-0">
-                  <h4 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-primary-700 transition-colors">
-                    {pub.title}
-                  </h4>
-                  <div className="text-slate-700 mb-2 text-sm leading-relaxed">
-                    {parts.map((part, i) => (
-                      part.includes('Liang') || part.includes('梁爽') 
-                        ? <span key={i} className="font-bold text-slate-900 underline decoration-primary-300 decoration-2">{part}</span> 
-                        : <span key={i}>{part}</span>
-                    ))}
-                  </div>
-                  <div className="flex flex-wrap items-center gap-y-2">
-                     <span className="font-serif italic text-slate-600 mr-3">
-                       {pub.venue}
-                     </span>
-                     <div className="flex flex-wrap">
-                       {pub.tags?.map((tag, tIdx) => (
-                         <Badge key={tIdx} text={tag} />
-                       ))}
-                     </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </Section>
-      
-      {/* Patents Section */}
-      <Section id="patents" title="专利软著" className="bg-slate-50">
-        {resumeData.patents && resumeData.patents.length > 0 ? (
-          <div className="grid gap-4">
-            {resumeData.patents.map((patent, idx) => (
-              <div key={idx} className="bg-white p-5 rounded-lg shadow-sm border border-slate-100 flex flex-col md:flex-row md:items-center justify-between gap-4 group hover:border-primary-200 transition-colors">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className={`text-xs font-bold px-2 py-0.5 rounded border ${
-                      patent.type.includes("软著") || patent.type.includes("软件")
-                        ? "bg-purple-50 text-purple-700 border-purple-100"
-                        : "bg-amber-50 text-amber-700 border-amber-100"
-                    }`}>
-                      {patent.type}
-                    </span>
-                     <span className="text-xs text-slate-400 font-mono flex items-center gap-1">
-                       <Stamp size={12} /> {patent.number}
-                     </span>
-                  </div>
-                  <h3 className="text-base font-bold text-slate-900 mb-1 group-hover:text-primary-700 transition-colors">{patent.title}</h3>
-                  <p className="text-sm text-slate-600">
-                    {patent.inventors.split(/[;；]/).map((person, pIdx, arr) => (
-                       <span key={pIdx} className={person.includes('梁爽') ? 'font-bold text-slate-900' : ''}>
-                         {person.trim()}{pIdx < arr.length - 1 ? '，' : ''}
-                       </span>
-                    ))}
-                  </p>
-                </div>
-                <div className="text-sm text-slate-500 whitespace-nowrap flex items-center gap-2 md:flex-col md:items-end md:justify-center">
-                  <span>{patent.date}</span>
-                  {patent.country && <span className="hidden md:inline text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500">{patent.country}</span>}
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="text-slate-500 text-center py-8">暂无专利信息</div>
-        )}
-      </Section>
+      <PatentsSection patents={resumeData.patents} />
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
