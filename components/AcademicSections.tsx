@@ -87,7 +87,7 @@ const HighlightedAuthors: React.FC<{ authors: string }> = ({ authors }) => (
 );
 
 const PublicationTitle: React.FC<{ publication: Publication }> = ({ publication }) => {
-  const href = publication.pdfUrl || publication.pageUrl;
+  const href = publication.pageUrl || publication.pdfUrl;
   const className = href
     ? 'font-medium text-blue-700 underline-offset-2 hover:underline'
     : 'font-medium text-slate-900';
@@ -123,9 +123,6 @@ export const PublicationsSection: React.FC<{ publications: Publication[] }> = ({
                 ))}
                 {publication.pdfUrl && (
                   <a href={publication.pdfUrl} className="ml-2 whitespace-nowrap text-[14px] text-blue-700 hover:underline" {...externalLinkProps}>[PDF]</a>
-                )}
-                {!publication.pdfUrl && publication.pageUrl && (
-                  <a href={publication.pageUrl} className="ml-2 whitespace-nowrap text-[14px] text-blue-700 hover:underline" {...externalLinkProps}>[论文页面]</a>
                 )}
               </p>
             </li>

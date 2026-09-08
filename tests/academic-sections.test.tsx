@@ -47,7 +47,7 @@ describe('academic list sections', () => {
     expect(within(list as HTMLOListElement).getByText(/国家自然科学基金委员会.*主持.*2025\.01/)).toBeTruthy();
   });
 
-  it('renders publications as stable year-descending citations with explicit link semantics', async () => {
+  it('links every publication title and does not repeat a publication-page link', async () => {
     await renderLoadedApp();
     const section = screen.getByRole('heading', { name: '科研论文' }).closest('section');
     const citations = section?.querySelectorAll('ol > li');
@@ -57,10 +57,12 @@ describe('academic list sections', () => {
     expect(citations?.[1].textContent).toContain(profileData.publications[1].title);
     expect(citations?.[14].textContent).toContain(profileData.publications[14].title);
     expect(citations?.[0].querySelector('em')).toBeTruthy();
+    citations?.forEach(citation => expect(citation.querySelector('a')).toBeTruthy());
+    expect(section?.textContent).not.toContain('[论文页面]');
 
     const kepoLinks = within(citations?.[8] as HTMLElement).getAllByRole('link');
     expect(kepoLinks).toHaveLength(2);
-    expect(kepoLinks[0].getAttribute('href')).toBe('https://arxiv.org/pdf/2603.11501');
+    expect(kepoLinks[0].getAttribute('href')).toBe('https://doi.org/10.1145/3774904.3792547');
     expect(kepoLinks[1].textContent).toBe('[PDF]');
     expect(kepoLinks.every(link => link.getAttribute('target') === '_blank')).toBe(true);
     expect(section?.textContent).not.toContain('accept');
