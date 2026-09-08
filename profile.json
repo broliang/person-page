@@ -118,7 +118,8 @@
       "authors": "Yizhuo Ma, Rongzheng Wang, Shuang Liang, Guangchun Luo, and Ke Qin",
       "title": "TopoLLM: LLM-driven adaptive tool learning for real-time emergency network topology planning",
       "venue": "Digit. Commun. Networks 12(2): 273-282 (2026)",
-      "year": "2026"
+      "year": "2026",
+      "pageUrl": "https://doi.org/10.1016/j.dcan.2025.10.002"
     },
     {
       "authors": "Yingyi Ma, Muquan Li, Guiduo Duan, Ke Qin, Shuang Liang, and Dongyang Zhang",
@@ -142,7 +143,8 @@
       "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": false
+      "isCorresponding": false,
+      "pageUrl": "https://icml.cc/virtual/2026/poster/60934"
     },
     {
       "authors": "Yihong Huang, Ke Qin, Rongzheng Wang, Muquan Li, Jiakai Li, Xiurui Xie, and Shuang Liang*",
@@ -150,7 +152,8 @@
       "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://icml.cc/virtual/2026/poster/66045"
     },
     {
       "authors": "Jiakai Li, Ke Qin, Rongzheng Wang, Yizhuo Ma, Qizhi Chen, Muquan Li, and Shuang Liang*",
@@ -158,7 +161,8 @@
       "venue": "ICML 2026",
       "year": "2026",
       "tags": ["CCF-A", "Spotlight"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://icml.cc/virtual/2026/poster/60517"
     },
     {
       "authors": "Rongzheng Wang, Zhe Wang, Ke Qin, Rongwei Wang, Muquan Li, Yizhuo Ma, Yihong Huang, Jielei Wang, and Shuang Liang*",
@@ -166,7 +170,8 @@
       "venue": "ACM Multimedia 2026",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://icct.uestc.edu.cn/info/1074/2406.htm"
     },
     {
       "authors": "Yu Qing, Xiao Wang, Zhe Wang, Xiurui Xie, Ke Qin, and Shuang Liang*",
@@ -174,7 +179,8 @@
       "venue": "CIKM 2026",
       "year": "2026",
       "tags": ["CCF-B"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://cikm2026.diag.uniroma1.it/full-research-papers/"
     },
     {
       "authors": "Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, and Shuang Liang*",
@@ -183,6 +189,7 @@
       "year": "2026",
       "tags": ["CCF-A", "Oral"],
       "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3774904.3792547",
       "pdfUrl": "https://arxiv.org/pdf/2603.11501"
     },
     {
@@ -209,14 +216,16 @@
       "venue": "ACL (1) 2026: 30186-30213",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": false
+      "isCorresponding": false,
+      "pageUrl": "https://doi.org/10.18653/v1/2026.acl-long.1393"
     },
     {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
       "title": "Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
       "venue": "ACL (Findings) 2026: 23302-23319",
       "year": "2026",
-      "isCorresponding": false
+      "isCorresponding": false,
+      "pageUrl": "https://doi.org/10.18653/v1/2026.findings-acl.1167"
     },
     {
       "authors": "Zekai Lin, Chao Xue, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Lei Jiang, Yu Lu, Bob Simons, Shuang Liang, and Minlong Peng",
@@ -224,7 +233,8 @@
       "venue": "ACL (1) 2026: 32846-32864",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": false
+      "isCorresponding": false,
+      "pageUrl": "https://doi.org/10.18653/v1/2026.acl-long.1516"
     },
     {
       "authors": "Xiao Wang, Tingting Dai, Wudong Cai, Ke Qin, Jie Shao, and Shuang Liang*",
@@ -232,20 +242,23 @@
       "venue": "Data Sci. Eng. 10(4): 711-728 (2025)",
       "year": "2025",
       "tags": ["中科院一区"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1007/s41019-025-00301-1"
     },
     {
       "authors": "Yuezhou Dong, Ke Qin, Pei Ke, Shuang Liang, and Guangchun Luo",
       "title": "Cross-Graph Knowledge Exchange for Personalized Response Generation in Dialogue Systems",
       "venue": "IEEE Internet Things J. 12(10): 13769-13789 (2025)",
-      "year": "2025"
+      "year": "2025",
+      "pageUrl": "https://doi.org/10.1109/JIOT.2025.3541258"
     },
     {
       "authors": "Yuezhou Dong, Ke Qin, Shuang Liang, Ahmad Raza, and Guangchun Luo",
       "title": "GKA-GPT: Graphical knowledge aggregation for multiturn dialog generation",
       "venue": "Knowl. Based Syst. 309: 112763 (2025)",
       "year": "2025",
-      "tags": ["中科院一区"]
+      "tags": ["中科院一区"],
+      "pageUrl": "https://doi.org/10.1016/j.knosys.2024.112763"
     },
     {
       "authors": "Dongyang Zhang, Jiachi Liu, Shuang Liang*, Xiurui Xie, Qiang Dong, and Ke Qin",
@@ -261,14 +274,16 @@
       "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
       "venue": "Proc. VLDB Endow. 18(10): 3573-3586 (2025)",
       "year": "2025",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.14778/3748191.3748216"
     },
     {
       "authors": "Meng Wang, Changyu Li, Feiyu Chen, Jie Shao, Ke Qin, and Shuang Liang*",
       "title": "MLFormer: Unleashing Efficiency Without Attention for Multimodal Knowledge Graph Embedding",
       "venue": "IEEE Trans. Comput. Soc. Syst. 12(6): 5536-5549 (2025)",
       "year": "2025",
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1109/TCSS.2025.3620089"
     },
     {
       "authors": "Dongyang Zhang, Shuang Liang*, Tao He, Jie Shao, and Ke Qin",
@@ -283,21 +298,24 @@
       "authors": "Yizhuo Ma, Rongzheng Wang, Qizhi Chen, Jiakai Li, Shuang Liang, and Ke Qin",
       "title": "Rethinking Graph Reasoning: Equip Large Language Models with Topology-Enhanced Prompt",
       "venue": "IEEE Big Data 2025: 2924-2933",
-      "year": "2025"
+      "year": "2025",
+      "pageUrl": "https://doi.org/10.1109/BigData66926.2025.11401726"
     },
     {
       "authors": "Jiasheng Zhang, Delvin Ce Zhang, Shuang Liang, Zhengpin Li, Rex Ying, and Jie Shao",
       "title": "Retrieval-Augmented Language Model for Knowledge-aware Protein Encoding",
       "venue": "ICML 2025",
       "year": "2025",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://openreview.net/forum?id=TJHhXzTcQe"
     },
     {
       "authors": "Xiao Wang, Han Li, Ke Qin, Zherui Fan, and Shuang Liang*",
       "title": "Denoised Edge-Aware Network for Session-based Recommendation",
       "venue": "ICSIM 2025: 110-115",
       "year": "2025",
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3725899.3725916"
     },
     {
       "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Jiasheng Zhang, and Ke Qin",
@@ -305,7 +323,8 @@
       "venue": "KDD (1) 2025: 1492-1503",
       "year": "2025",
       "tags": ["CCF-A"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3690624.3709238"
     },
     {
       "authors": "Ruiting Dai, Yuqiao Tan, Lisi Mo, Tao He, Ke Qin, and Shuang Liang*",
@@ -313,7 +332,8 @@
       "venue": "ICMR 2025: 164-172",
       "year": "2025",
       "tags": ["CCF-B"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3731715.3733423"
     },
     {
       "authors": "Muquan Li, Hang Gou, Dongyang Zhang, Shuang Liang, Xiurui Xie, Deqiang Ouyang, and Ke Qin",
@@ -330,28 +350,32 @@
       "venue": "NeurIPS 2025",
       "year": "2025",
       "tags": ["CCF-A"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.52202/085713-2893"
     },
     {
       "authors": "Jiakai Li, Rongzheng Wang, Yizhuo Ma, Shuang Liang, Guangchun Luo, and Ke Qin",
       "title": "DSAS: A Universal Plug-and-Play Framework for Attention Optimization in Multi-Document Question Answering",
       "venue": "NeurIPS 2025",
       "year": "2025",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.52202/085713-5806"
     },
     {
       "authors": "Hongcai He, Anjie Zhu, Shuang Liang, Feiyu Chen, and Jie Shao",
       "title": "Decoupling Meta-Reinforcement Learning with Gaussian Task Contexts and Skills",
       "venue": "AAAI 2024: 12358-12366",
       "year": "2024",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.1609/aaai.v38i11.29127"
     },
     {
       "authors": "Ruiting Dai, Yuqiao Tan, Lisi Mo, Shuang Liang, Guohao Huo, Jiayi Luo, and Yao Cheng",
       "title": "G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning",
       "venue": "ICMR 2024: 1051-1060",
       "year": "2024",
-      "tags": ["CCF-B"]
+      "tags": ["CCF-B"],
+      "pageUrl": "https://doi.org/10.1145/3652583.3658040"
     },
     {
       "authors": "Yizhuo Ma, Ke Qin*, and Shuang Liang*",
@@ -359,28 +383,32 @@
       "venue": "NAACL-HLT (Findings) 2024: 1945-1955",
       "year": "2024",
       "tags": ["CCF-B"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.18653/v1/2024.findings-naacl.126"
     },
     {
       "authors": "Jiasheng Zhang, Jialin Chen, Menglin Yang, Aosong Feng, Shuang Liang, Jie Shao, and Rex Ying",
       "title": "DTGB: A Comprehensive Benchmark for Dynamic Text-Attributed Graphs",
       "venue": "NeurIPS 2024",
       "year": "2024",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.52202/079017-2901"
     },
     {
       "authors": "Yuezhou Dong, Ke Qin, and Shuang Liang",
       "title": "Hierarchical Knowledge Aggregation for Personalized Response Generation in Dialogue Systems",
       "venue": "NLPCC (1) 2024: 29-42",
       "year": "2024",
-      "tags": ["CCF-C"]
+      "tags": ["CCF-C"],
+      "pageUrl": "https://doi.org/10.1007/978-981-97-9431-7_3"
     },
     {
       "authors": "Xiao Wang, Tingting Dai, Qiao Liu, and Shuang Liang",
       "title": "Spatial-Temporal Perceiving: Deciphering User Hierarchical Intent in Session-Based Recommendation",
       "venue": "IJCAI 2024: 2415-2423",
       "year": "2024",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.24963/ijcai.2024/267"
     },
     {
       "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
@@ -395,21 +423,24 @@
       "title": "Graph-Based Non-Sampling for Knowledge Graph Enhanced Recommendation",
       "venue": "IEEE Trans. Knowl. Data Eng. 35(9): 9462-9475 (2023)",
       "year": "2023",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.1109/TKDE.2023.3240832"
     },
     {
       "authors": "Shuang Liang",
       "title": "Knowledge Graph Embedding Based on Graph Neural Network",
       "venue": "ICDE 2023: 3908-3912",
       "year": "2023",
-      "tags": ["CCF-A"]
+      "tags": ["CCF-A"],
+      "pageUrl": "https://doi.org/10.1109/ICDE55515.2023.00379"
     },
     {
       "authors": "Shuang Liang, Anjie Zhu, Jiasheng Zhang, and Jie Shao",
       "title": "Hyper-node Relational Graph Attention Network for Multi-modal Knowledge Graph Completion",
       "venue": "ACM Trans. Multim. Comput. Commun. Appl. 19(2): 62:1-62:21 (2023)",
       "year": "2023",
-      "tags": ["CCF-B"]
+      "tags": ["CCF-B"],
+      "pageUrl": "https://doi.org/10.1145/3545573"
     },
     {
       "authors": "Derong Chen, Shuang Liang*, Gang Hu, Han Xu, Xianqiang Luo, Hao Li, and Jie Shao",
@@ -417,35 +448,40 @@
       "venue": "DASFAA (1) 2023: 562-577",
       "year": "2023",
       "tags": ["CCF-B"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1007/978-3-031-30637-2_37"
     },
     {
       "authors": "Anjie Zhu, Deqiang Ouyang, Shuang Liang, and Jie Shao",
       "title": "Step by step: A hierarchical framework for multi-hop knowledge graph reasoning with reinforcement learning",
       "venue": "Knowl. Based Syst. 248: 108843 (2022)",
       "year": "2022",
-      "tags": ["中科院一区"]
+      "tags": ["中科院一区"],
+      "pageUrl": "https://doi.org/10.1016/j.knosys.2022.108843"
     },
     {
       "authors": "Jiasheng Zhang, Shuang Liang, Yongpan Sheng, and Jie Shao",
       "title": "Temporal knowledge graph representation learning with local and global evolutions",
       "venue": "Knowl. Based Syst. 251: 109234 (2022)",
       "year": "2022",
-      "tags": ["中科院一区"]
+      "tags": ["中科院一区"],
+      "pageUrl": "https://doi.org/10.1016/j.knosys.2022.109234"
     },
     {
       "authors": "Shuang Liang, Jie Shao, Dongyang Zhang, Jiasheng Zhang, and Bin Cui",
       "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion: (Extended Abstract)",
       "venue": "ICDE 2022: 1499-1500",
       "year": "2022",
-      "tags": ["CCF-A", "Extended Abstract"]
+      "tags": ["CCF-A", "Extended Abstract"],
+      "pageUrl": "https://doi.org/10.1109/ICDE53745.2022.00126"
     },
     {
       "authors": "Jiasheng Zhang, Shuang Liang, Zhiyi Deng, and Jie Shao",
       "title": "Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion",
       "venue": "DASFAA (1) 2021: 207-223",
       "year": "2021",
-      "tags": ["CCF-B"]
+      "tags": ["CCF-B"],
+      "pageUrl": "https://doi.org/10.1007/978-3-030-73194-6_15"
     }
   ],
   "patents": [
