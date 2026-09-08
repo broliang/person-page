@@ -124,7 +124,8 @@
       "authors": "Yingyi Ma, Muquan Li, Guiduo Duan, Ke Qin, Shuang Liang, and Dongyang Zhang",
       "title": "Efficient Dataset Distillation via Generative Pruning",
       "venue": "IEEE Trans. Big Data 12(4): 1195-1207 (2026)",
-      "year": "2026"
+      "year": "2026",
+      "pageUrl": "https://doi.org/10.1109/TBDATA.2026.3668524"
     },
     {
       "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
@@ -132,7 +133,8 @@
       "venue": "ACM Trans. Inf. Syst. 44(5): 122:1-122:28 (2026)",
       "year": "2026",
       "tags": ["CCF-A"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3816730"
     },
     {
       "authors": "Yuning Yang, Guowei Peng, Xiurui Xie, Minrui Jiang, Shuang Liang, and Guisong Liu",
@@ -180,7 +182,8 @@
       "venue": "WWW 2026: 2308-2319",
       "year": "2026",
       "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pdfUrl": "https://arxiv.org/pdf/2603.11501"
     },
     {
       "authors": "Rongzheng Wang, Shuang Liang*, Qizhi Chen, Yihong Huang, Muquan Li, Yizhuo Ma, Dongyang Zhang, Ke Qin, and Man-Fai Leung",
@@ -188,7 +191,8 @@
       "venue": "WWW 2026: 3811-3822",
       "year": "2026",
       "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1145/3774904.3792314"
     },
     {
       "authors": "Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, and Shuang Liang*",
@@ -196,7 +200,8 @@
       "venue": "AAAI 2026: 15895-15903",
       "year": "2026",
       "tags": ["CCF-A", "Oral"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1609/aaai.v40i19.38622"
     },
     {
       "authors": "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, and Flora D. Salim",
@@ -248,7 +253,8 @@
       "venue": "Knowl. Based Syst. 325: 113876 (2025)",
       "year": "2025",
       "tags": ["中科院一区"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://www.sciencedirect.com/science/article/pii/S0950705125009220"
     },
     {
       "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, and Jie Shao",
@@ -270,7 +276,8 @@
       "venue": "IEEE Trans. Emerg. Top. Comput. Intell. 9(2): 1107-1118 (2025)",
       "year": "2025",
       "tags": ["中科院二区"],
-      "isCorresponding": true
+      "isCorresponding": true,
+      "pageUrl": "https://doi.org/10.1109/TETCI.2024.3436904"
     },
     {
       "authors": "Yizhuo Ma, Rongzheng Wang, Qizhi Chen, Jiakai Li, Shuang Liang, and Ke Qin",
@@ -314,7 +321,8 @@
       "venue": "NeurIPS 2025",
       "year": "2025",
       "tags": ["CCF-A"],
-      "isCorresponding": false
+      "isCorresponding": false,
+      "pageUrl": "https://neurips.cc/virtual/2025/loc/san-diego/poster/116998"
     },
     {
       "authors": "Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, and Shuang Liang*",
@@ -379,7 +387,8 @@
       "title": "DRGI: Deep Relational Graph Infomax for Knowledge Graph Completion",
       "venue": "IEEE Trans. Knowl. Data Eng. 35(3): 2486-2499 (2023)",
       "year": "2023",
-      "tags": ["CCF-A", "ESI 高被引"]
+      "tags": ["CCF-A", "ESI 高被引"],
+      "pageUrl": "https://doi.org/10.1109/TKDE.2021.3110898"
     },
     {
       "authors": "Shuang Liang, Jie Shao, Jiasheng Zhang, and Bin Cui",
