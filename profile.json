@@ -179,8 +179,7 @@
       "venue": "CIKM 2026",
       "year": "2026",
       "tags": ["CCF-B"],
-      "isCorresponding": true,
-      "pageUrl": "https://cikm2026.diag.uniroma1.it/full-research-papers/"
+      "isCorresponding": true
     },
     {
       "authors": "Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, and Shuang Liang*",
@@ -307,7 +306,7 @@
       "venue": "ICML 2025",
       "year": "2025",
       "tags": ["CCF-A"],
-      "pageUrl": "https://openreview.net/forum?id=TJHhXzTcQe"
+      "pageUrl": "https://proceedings.mlr.press/v267/zhang25cz.html"
     },
     {
       "authors": "Xiao Wang, Han Li, Ke Qin, Zherui Fan, and Shuang Liang*",
@@ -342,7 +341,7 @@
       "year": "2025",
       "tags": ["CCF-A"],
       "isCorresponding": false,
-      "pageUrl": "https://neurips.cc/virtual/2025/loc/san-diego/poster/116998"
+      "pageUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9b812ee4b831c21e14156ced8659197c-Paper-Conference.pdf"
     },
     {
       "authors": "Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, and Shuang Liang*",
